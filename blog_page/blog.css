@@ -68,10 +68,15 @@ nav ul li a:hover{
 }
 .single-img-div{
     height:300px;
+    overflow: hidden;
 }
 .single-img-div img{
     height: 100%;
     width: 100%;
+    transition: 0.5s;
+}
+.single-img-div img:hover{
+    scale: 1.2;
 }
 .article-tittle{
     color: green;
