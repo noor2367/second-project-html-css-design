@@ -2,6 +2,54 @@
     margin: 0%;
     padding: 0%;
 }
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #1a1244;
+    padding: 10px 100px;
+    border-bottom:2px solid #401e63;
+    position: sticky;
+    top:0px;
+}
+nav div{
+    color: white;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li {
+    list-style-type: none;
+    margin: 10px 5px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+    padding: 10px 20px;
+}
+nav ul li a:hover{
+    background-color: black;
+    color: red;
+    border-radius: 5px;
+}
+.hero{
+    background-image: url(../image/morskie-oko-tatry_1204-510.avif);
+    padding: 200px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.hero-icon-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .article-container{
     width: 1100px;
     margin: 0 auto;
